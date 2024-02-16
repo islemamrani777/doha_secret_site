@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css"/>
   </head>
   <body class="flex flex-col justify-center min-h-screen">
+    <div class="faded">
     <div id="pfp">
       <img class="flex mx-auto inline object-cover w-36 h-36 md:w-40 md:h-40 rounded-full" src="./assets/img/i.png" alt="Profile image"/>
     </div>
@@ -18,7 +19,16 @@
       <a class="hover:text-indigo-500" href="https://www.instagram.com/doha_rym/"><i data-feather="instagram"></i></a>
       <a class="hover:text-indigo-500" href="https://www.facebook.com/doha.rym.5"><i data-feather="facebook"></i></a>
     </ul>
-    <button onclick="myFunction()" style="width:40px;height:40px;">&#x274c</button>
+    <button onclick="myFunction()" style="width:40px;height:40px;" class="media">&#x274c</button>
+    </div>
+    <nav class="navbar">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script>
       feather.replace()
